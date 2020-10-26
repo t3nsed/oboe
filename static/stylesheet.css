@@ -1,0 +1,258 @@
+.nav_separator,
+.button {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.logo {
+    vertical-align: middle;
+    margin-right: 20px
+}
+
+.background {
+    background-size: 20px 20px;
+    background-color: #FAFAFA;
+    background-image: radial-gradient(circle, #EFEFEF 3px, #FAFAFA 0px);
+    background-repeat: repeat
+}
+
+.keep_space {
+    margin-bottom: 40px
+}
+
+.background-white {
+    background-color: #fff
+}
+
+.bar {
+    padding: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+.main__ {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+
+.tile, 
+.comment,
+.gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: auto;
+    box-shadow: 0px 2px 10px rgba(78, 78, 78, 0.1)
+}
+.tile {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.comment {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.title {
+    float: none;
+    text-align: left;
+    display: block;
+    margin: 0;
+    color: #0D28F2;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.user,
+.time,
+.date {
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: #0D28F2;
+    font-size: .67em;
+    font-weight: bold;
+}
+.id {
+    float: right;
+    margin-bottom: 15px;
+    color: #0D28F2;
+    font-size: .67em;
+    font-weight: bold;
+}
+
+.content {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.imgThread {
+    width:30%;
+    max-width:600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.imgGallery {
+    width: 130px;
+    height: 130px;
+    margin: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0D28F2;
+    box-shadow: 0px 0px 2px #0D28F2;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center
+}
+
+.nav_span {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px
+}
+
+.nav_entity {
+    vertical-align: middle;
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.underline--hover:hover {
+    text-decoration: underline
+}
+
+.nav_separator {
+    vertical-align: middle;
+    color: #CECECE;
+    margin-right: 10px
+}
+
+.bold {
+    font-weight: bold
+}
+
+.blue {
+    color: #0D28F2
+}
+
+.textarea--v {
+    resize: vertical
+}
+
+.button_space {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.form_space {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.button {
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 10px;
+    min-width: 90px;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    text-align: center;
+    min-height: 28px;
+    font-family: inherit;
+    white-space: nowrap
+}
+
+.button--blue {
+    border-color: #0D28F2;
+    background-color: #0D28F2;
+    color: #fff
+}
+
+@font-face {
+    font-family: 'Inter UI';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter UI"), url(/static/fonts/Inter-Regular.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: 'Inter UI';
+    font-style: normal;
+    font-weight: 800;
+    src: local("Inter UI"), url(/static/fonts/Inter-Bold.woff2) format("woff2")
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: "Inter UI", sans-serif;
+    font-size: 13px;
+    color: #4E4E4E
+}
+
+input,
+textarea,
+select {
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+input {
+    padding: 0
+}
+

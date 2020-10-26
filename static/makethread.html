@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+	<head>
+		<title>Oboe BETA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+	</head>
+
+	<body class="background keep_space">
+		<div class="background-white">
+			<div class="bar">
+				<nav class="nav">
+					<nav class="nav"><span class="nav_span"><a href="/"><img id="logo" class="logo" width="32" height="32" src="/static/oboe.png" alt="logo"></a><a class="nav_entity underline--hover bold blue" href="/">Home</a><span class="nav_separator">/</span><a class="nav_entity underline--hover" href="/gallery">Gallery</a><span class="nav_separator">/</span><a class="nav_entity underline--hover" href="/makethread">New Thread</a></span></nav>
+				</nav>
+			</div>
+		</div>		
+		<div class="main__">
+			<div class="tile">
+				<h3>Create a Thread</h3>
+				<form action="/makethread" enctype="multipart/form-data" method="post" autocomplete="off">
+					<div class="form_space">
+						<input name= "poster" type="text" placeholder="Identifier" autofocus>
+					</div>
+					<div class="form_space">
+						<input name= "title" type="text" placeholder="Thread Title" autofocus>
+					</div>
+					<textarea name="body" class="textarea--v" rows="5" cols="50" placeholder="Thread Content"></textarea>
+					<div class="form_space">
+						<input type="file" name="image" accept="image/*">
+					</div>
+					<div class="button_space">
+						<input type="submit" class="button button--blue" value="create thread">
+					</div>
+				</form>
+			</div>
+		</div>	
+	</body>
+</html>

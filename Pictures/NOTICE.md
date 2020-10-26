@@ -1,0 +1,1 @@
+This directory is needed for saving images. The location is hardcoded in the code, so don't delete it unless you change the hardcode to something else.
