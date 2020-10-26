@@ -8,6 +8,7 @@ A simple imageboard software project using rust's rocket.rs and PostgreSQL.
 
 This is a project done for a web-development course. It is meant to show skills  obtained in the course, and is not made primarily with production use in mind. All the common issues with SQL injection and XSS will work because there is very little verification/validation done.
 
+
 ## Building
 
 - make sure you have rust installed:
@@ -26,6 +27,13 @@ This is a project done for a web-development course. It is meant to show skills 
     - `cargo run --release` (there might be some warnings due to non-standard formatting practices)
     - or `cargo build` if you just want to see if it compiles, and do not need a optimized binary
 - by default, rocket serves <a href=localhost:8000> localhost on port 8000</a>.
+
+## Examples
+
+<p align="center"><img src="/.promo/HelloWorld.png" width="1000"></a></p>
+<p align="center"><img src="/.promo/Gallery.png" width="1000"></a></p> 
+<p align="center"><img src="/.promo/NewThread.png" width="1000"></a></p> 
+
 
 ## Dependencies
 
